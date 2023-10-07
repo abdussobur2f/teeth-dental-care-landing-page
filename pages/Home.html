@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!-- Add Bootstrap CSS -->
+    <link rel="stylesheet" href="https://bootswatch.com/5/lumen/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Home.css">
+    <!-- bootstrap iocn -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+    <title>মাদরাসা হোম পেজ</title>
+
+</head>
+
+<body>
+
+
+
+    <!-- header statr ----------------- -->
+    <header class="header">
+
+
+
+        <div class="d-none d-md-block header-top">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-xxl-4 col-lg-4 col-md-6 col-sm-12">
+                        <h4 class="subtitle"> ⧪ ঠিকানাঃ , - ৫৮০০ ⧪ EIIN no: ১১৯২৯৮</h4>
+                    </div>
+                    <div class="col-md-6 col-xxl-8 col-lg-8 col-sm-12 subtitle">
+                        <ul
+                            class="list-unstyled list-inline d-flex justify-content-end align-items-center gap-3 list_header_top text-md-end ">
+                            <li class=" ">
+
+                                <i class="bi bi-envelope"></i>
+                                <a class="nav-link  " href="mailto:joranukamilmadrasah@gmail.com">
+                                    joranukamilmadrasah@gmail.com
+                                </a>
+                            </li>
+                            <li class="  ">
+                                <i class="bi bi-telephone-plus"></i>
+                                <span>+৮৮০ ১৯১২-৯৩৮৪৮৫</span>
+                            </li>
+                            <li class=" ">
+                                <a class="nav-link" href="#">
+                                    <i class="bi bi-person-plus-fill"></i> <span>Login</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 logo " id="banner_bg">
+            <div class="container">
+                <a href="#">
+                    <img src="./assets/header-logo.svg" alt="Logo" class="img-fluid" width="100%">
+                </a>
+            </div>
+        </div>
+
+
+        <nav class="navbar navbar-expand-lg text-white subtitle">
+            <div
+                class="container-fluid justify-content-center justify-content-lg-between justify-content-xxl-between justify-content-md-between">
+                <button class="navbar-toggler rounded-0 text-white fw-normal shadow-lg " type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarColor04" aria-controls="navbarColor04"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class=" border-0"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor04">
+                    <ul class="navbar-nav me-auto gap-1 gap-lg-3 mx-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">হোম
+                                <span class="visually-hidden">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                পরিচিতি
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">অধ্যক্ষ বানী</a>
+                                <a class="dropdown-item" href="#">শিক্ষকমণ্ডলীর তথ্যবলী</a>
+                                <a class="dropdown-item" href="#">কর্মকর্তা ও কর্মচারী</a>
+                                <a class="dropdown-item" href="#">প্রাতিষ্ঠানিক ইতিহাস</a>
+                                <a class="dropdown-item" href="#">প্রতিষ্ঠানের লক্ষ্য</a>
+                                <a class="dropdown-item" href="#">গভর্নিংবডি</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                একাডেমিক
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">শিক্ষার্থীদের তথ্য</a>
+                                <a class="dropdown-item" href="#">পাঠ্যসূচি</a>
+                                <a class="dropdown-item" href="#">ক্লাশ রুটিন</a>
+                                <a class="dropdown-item" href="#">পরিক্ষা রুটিন</a>
+                                <a class="dropdown-item" href="#">শিক্ষার্থী পোশাক</a>
+                                <a class="dropdown-item" href="#">বিনোদন ও অনুষ্ঠান</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                ভর্তি
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">ভর্তির সময়</a>
+                                <a class="dropdown-item" href="#">ভর্তির শর্তাবলী</a>
+                                <a class="dropdown-item" href="#">ভর্তির প্রক্রিয়া</a>
+                                <a class="dropdown-item" href="#">ভর্তি ফি-এর তালিকা</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                ফলাফল
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">প্রাতিষ্ঠানিক ফলাফল</a>
+                                <a class="dropdown-item" href="#">সেন্টার পরিক্ষার ফলাফল</a>
+                                <a class="dropdown-item" href="#">ফলাফল সংশোধনির আবেদন</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                অনলাইন সেবা
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">অনলাইনে ভর্তি</a>
+                                <a class="dropdown-item" href="#">সকল প্রশ্ন এবং উত্তর</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+
+                            <button class="nav-link " type="button" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                ডাউনলোড
+                                <i class="fa-solid fa-angle-down ms-1 mb-0 lh-0"></i>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">এডমিট কার্ড</a>
+                                <a class="dropdown-item" href="#">প্রাতিষ্ঠানিক সার্টিফিকেট</a>
+                            </div>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">যোগাযোগ</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- *************header end ************** -->
+
+    <!-- Carousel (left side) -->
+    <main class=" main">
+
+
+        <div class="hero   d-flex align-items-center justify-content-center">
+            <div class="container bg-white shadow-lg">
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                    <div class="carousel-inner ">
+                        <div class="carousel-item active">
+                            <img src="https://thumbs.dreamstime.com/b/madarsa-mouradia-tunis-tunisia-30375821.jpg"
+                                alt="Slide 1" class="d-block w-75 ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://media.istockphoto.com/id/637258756/photo/ben-youssef-medersa.jpg?s=612x612&w=0&k=20&c=_s-3PmJ6p1deaALzhfOFAyP_nnYPdb9XIlgF73iHDzk="
+                                alt="Slide 2" class="d-block w-75 ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://www.shutterstock.com/shutterstock/photos/2308730509/display_1500/stock-photo-kukeldash-madrasah-is-a-medieval-madrasa-in-tashkent-uzbekistan-2308730509.jpg"
+                                alt="Slide 3" class="d-block w-75 ">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="container bg-white shadow-lg py-4">
+            <div class="row g-4">
+
+                <div class="col-lg-4">
+
+
+
+
+
+                    <div class="aside">
+                        <div class="row gy-4">
+                            <div class="col-12">
+                                <div class=" card  rounded-0 border-0 ">
+
+                                    <div class="top_heading text-center">
+                                        <h2>উপাধ্যক্ষ বানী</h2>
+                                    </div>
+                                    <div class="img_wrapper">
+                                        <img src="https://scontent.fdac96-1.fna.fbcdn.net/v/t39.30808-6/366668461_1496079177798236_3491523002063642716_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeES7mOWJdF7CYqi8-Z_9WnBdy5889_y6EN3Lnzz3_LoQ7i29gxJ4Ex6FD8Sn-6Y0vvJ8sAJlGl4fwNAqCWoXpLA&_nc_ohc=UOEnNbiNGdgAX-CCqXp&_nc_zt=23&_nc_ht=scontent.fdac96-1.fna&oh=00_AfDM5j7coKiQFqRTzlzatZto1_Ybc2IPNd5TXTa86hp_Dw&oe=6510B596"
+                                            alt="" class="card-img-top img-fluid d-block rounded-0">
+
+                                    </div>
+
+                                    <div class="card-body py-2">
+
+
+                                        <div class="card-title text-center">এইচ এম আব্দুস সবুর</div>
+                                        <p class="pra">বিসমিল্লাহির রাহমানির রাহীম, সমস্ত প্রশংসা সেই মহান আল্লাহ
+                                            রাব্বুল আলামিনের যিনি আমাকে এক যুগের বেশ <a href="" class="text-primary">আরও
+                                                পড়ুন…</a></p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class=" card  rounded-0 border-0 ">
+
+                                    <div class="top_heading text-center">
+                                        <h2>অধ্যক্ষ বানী</h2>
+                                    </div>
+                                    <div class="img_wrapper">
+                                        <img src="https://scontent.fdac96-1.fna.fbcdn.net/v/t39.30808-6/366668461_1496079177798236_3491523002063642716_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_eui2=AeES7mOWJdF7CYqi8-Z_9WnBdy5889_y6EN3Lnzz3_LoQ7i29gxJ4Ex6FD8Sn-6Y0vvJ8sAJlGl4fwNAqCWoXpLA&_nc_ohc=UOEnNbiNGdgAX-CCqXp&_nc_zt=23&_nc_ht=scontent.fdac96-1.fna&oh=00_AfDM5j7coKiQFqRTzlzatZto1_Ybc2IPNd5TXTa86hp_Dw&oe=6510B596"
+                                            alt="" class="card-img-top img-fluid d-block rounded-0">
+
+                                    </div>
+
+                                    <div class="card-body py-2">
+
+
+                                        <div class="card-title text-center">এইচ এম আব্দুস সবুর</div>
+                                        <p class="pra">বিসমিল্লাহির রাহমানির রাহীম, সমস্ত প্রশংসা সেই মহান আল্লাহ
+                                            রাব্বুল আলামিনের যিনি আমাকে এক যুগের বেশ <a href="" class="text-primary">আরও
+                                                পড়ুন…</a></p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="col-12">
+                                <div class="download">
+                                    <div class="card">
+                                        <h2 class="card-header title-1 text-uppercase text-center"> <span><i
+                                                    class="bi bi-mortarboard"></i></span> ONLINE Admision</h2>
+
+                                        <div class="card-body">
+                                            <div class="item">
+                                                <a href="" class="btn-2"> <span><i
+                                                            class="bi bi-arrow-down-circle"></i></span> applicatio
+                                                    form</a>
+                                            </div>
+                                            <div class="item">
+                                                <a href="" class="btn-3"><span><i class="bi bi-ticket"></i></span>
+                                                    admision form</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="seba">
+                                    <div class="top_heading text-center">
+                                        <h2>ই-সেবা</h2>
+                                    </div>
+                                    <ul class="pra">
+                                        <li> <span><i class="bi bi-caret-right-fill"></i></span> <a href="">শিক্ষক
+                                                লগইন</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span> <a href="">শিক্ষার্থী
+                                                লগইন</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span> <a href="">গার্ডিয়ান
+                                                লগইন</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span><a href=""> ই-পেমেন্ট</a>
+                                        </li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span><a href="">বোর্ড
+                                                ফলাফল</a></li>
+
+
+
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="seba">
+                                    <div class="top_heading text-center">
+                                        <h2>গুরুত্বপূর্ণ লিংক</h2>
+                                    </div>
+                                    <ul class="pra">
+                                        <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                href="">প্রধানমন্ত্রীর কার্যালয়</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span> <a href=""> রাষ্ট্রপতির
+                                                কার্যালয়</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span> <a href=""> জাতীয়
+                                                পোর্টাল</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span><a href=""> শিক্ষা
+                                                মন্ত্রণালয়</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span><a href=""> মাধ্যমিক ও
+                                                উচ্চশিক্ষা অধিদপ্তর</a></li>
+                                        <li><span><i class="bi bi-caret-right-fill"></i></span><a href=""> মাধ্যমিক ও
+                                                উচ্চশিক্ষা অধিদপ্তর</a></li>
+
+
+
+
+
+
+
+
+
+
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="songet ">
+                                    <div class="top_heading text-center">
+                                        <h2>জাতীয় সংগীত</h2>
+                                    </div>
+
+                                    <div class="audio">
+                                        <audio controls class=" p-2">
+                                            <source src="horse.ogg" type="audio/ogg">
+                                            <source src="horse.mp3" type="audio/mpeg">
+                                            Your browser does not support the audio element.
+                                        </audio>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="helpline ">
+                                    <div class="top_heading text-center">
+                                        <h2>জরুরি হটলাইন</h2>
+                                    </div>
+
+                                    <div class="img-wrapper-helpline  ">
+                                        <img src="./assets//National-Helpline.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="dangu ">
+                                    <div class="top_heading text-center">
+                                        <h2>জরুরি হটলাইন</h2>
+                                    </div>
+
+                                    <div class="img-wrapper d-flex align-items-center justify-content-center">
+                                        <img src="./assets/dengu.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+
+                <!-- Notices card (right side) -->
+                <div class="col-lg-8">
+                    <div class="table_wrapper pt-1 pb-4">
+                        <table class="table table-hover ">
+                            <thead>
+                                <tr>
+                                    <th colspan="3" class=" heading text-center title-1">সকল নোটিশ</th>
+
+                                </tr>
+                                <tr class="sub_heading" style="background-color: #7091F5;">
+                                    <th scope="col">Date </th>
+                                    <th scope="col">Notices</th>
+                                    <th scope="col">Views</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="table-active">
+                                    <th class="custom-th" scope="row">২৫ এপ্রিল, ২০২৩ </th>
+                                    <td><a class="nav-link" href="#">আগামী ১লা মে বন্ধ</a></td>
+                                    <td class="custom-th">০৫</td>
+                                </tr>
+                                <tr class="table-active">
+                                    <th class="custom-th" scope="row">২৫ মার্চ, ২০২৩</th>
+                                    <td><a class="nav-link" href="#">আগামী ১ই এপ্রিল থেকে ১৫ই এপ্রিল পর্যন্ত ঈদের ছুটি
+                                            ঘোষণা</a></td>
+                                    <td class="custom-th">২০</td>
+                                </tr>
+                                <tr class="table-active">
+                                    <th class="custom-th" scope="row">৩০ এপ্রিল, ২০২৩</th>
+                                    <td><a class="nav-link" href="#">২০২২ সালের আলিম পরীক্ষার মূল সনদ বিতরণ সংক্রান্ত
+                                            বিজ্ঞপ্তি</a></td>
+                                    <td class="custom-th">২০</td>
+                                </tr>
+                                <tr class="table-active">
+                                    <th class="custom-th" scope="row">৩০ মার্চ ২০২৩</th>
+                                    <td><a class="nav-link" href="#">আলিম পরীক্ষা ২০২৩ এর ICT বিষয়ের ব্যবহারিক নম্বর
+                                            বোর্ডে
+                                            পাঠানোর নিয়মাবলী</a></td>
+                                    <td class="custom-th">২০</td>
+                                </tr>
+                                <tr>
+
+
+
+                            </tbody style="border:1px solid black;">
+
+
+                        </table>
+
+                        <a class="btn-1  " colspan="3">সকল</a>
+                    </div>
+
+
+
+                    <section>
+
+                        <div class="row ">
+                            <div class="col-12">
+                                <div class="top_heading">
+                                    <h2 class=" ">প্রতিষ্ঠানের ইতিহাস</h2>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-12">
+
+                                <div class=" img-wrap">
+                                    <img src="https://images.unsplash.com/photo-1653023102302-247f5f0fbdd1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1517&q=80"
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-5 col-12">
+                                <p class="pra">মাদ্রাসা শব্দটি আরবী যা বাংলায় বিদ্যালয়, পাঠশালা, শিক্ষা নিকেতন ইত্যাদি
+                                    অর্থে
+                                    ব্যাবহারিত হয়। মাদ্রাসা শব্দটি এমন একটি নাম যা শুনা মাত্র প্রকৃত মুসলমানদের মনে একটা
+                                    অনুপম অনুভূতি ও শ্রোদ্ধাভাব জেগে উঠে যা বিদ্যালয় শব্দে হয় না। অর্থাৎ মাদ্রাসা মানেই
+                                    আল্লাহ, রাসুল, দ্বীন, আখেরাত, কোরআন, হাদিস ইত্যাদির সাথে পরিচয় করার স্থান। যদিও
+                                    বর্তমান
+                                    কালে স্কুল কলেজের যাবতীয় পুস্তকও মাদ্রাসায় পড়ানো হয়.. <a href=""
+                                        class="text-capitalize text-primary">আরো পড়ুন</a> </p>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- start box -->
+
+                    <section class="box_item">
+
+                        <div class="row g-3 ">
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">প্রাতিষ্ঠানিক তথ্য</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/academic.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিচিতি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">সম্মানিত শিক্ষকমন্ডলী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">গভর্নিং বডি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কর্মকর্তা ও কর্মচারী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিকল্পনা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রাতিষ্ঠানিক আয় ও ব্যয়</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">একাডেমীক তথ্য</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/student.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">শিক্ষার্থী আসন সংখ্যা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">আবাসিক তথ্য</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">যানবাহন সুবিধা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কৃতি শিক্ষার্থী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+
+
+
+
+
+
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">ডাউনলোড কর্নার</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/download.png" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">শিক্ষার্থী আসন সংখ্যা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">আবাসিক তথ্য</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">যানবাহন সুবিধা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কৃতি শিক্ষার্থী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+
+
+
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">সরকারি আদেশ ও নির্দেশনা</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/gov.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">শিক্ষার্থী আসন সংখ্যা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">আবাসিক তথ্য</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">যানবাহন সুবিধা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কৃতি শিক্ষার্থী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">ক্রীড়া এবং বিনোদন</a></li>
+
+
+
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">অনলাইন সেবা</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/online.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিচিতি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">সম্মানিত শিক্ষকমন্ডলী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">গভর্নিং বডি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কর্মকর্তা ও কর্মচারী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিকল্পনা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রাতিষ্ঠানিক আয় ও ব্যয়</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="content_box">
+                                    <div class="row align-items-center">
+                                        <div class="col-12">
+                                            <div class=" mb-2">
+                                                <h2 class="title-1 ">জরুরী যোগাযোগ</h2>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <img src="./assets/contact.jpg" alt="" class="img-fluid">
+                                        </div>
+                                        <div class="  col-8 ">
+                                            <article>
+                                                <ul class="pra">
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিচিতি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">সম্মানিত শিক্ষকমন্ডলী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">গভর্নিং বডি</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">কর্মকর্তা ও কর্মচারী</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রতিষ্ঠান পরিকল্পনা</a></li>
+                                                    <li> <span><i class="bi bi-caret-right-fill"></i></span> <a
+                                                            href="">প্রাতিষ্ঠানিক আয় ও ব্যয়</a></li>
+                                                </ul>
+                                            </article>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </section>
+
+                    <!-- end box  -->
+                    <section class="gallary" id="gallary">
+
+                        <div class="top_heading">
+                            <h2>গ্যালারী</h2>
+                        </div>
+                        <div class="row g-3">
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/471227789/photo/dome-of-the-masjid-i-sheikh-lotfallah-iran.webp?s=1024x1024&w=is&k=20&c=05lvBah2_k81YBEtWIcE7kgoDY_IIFllPeGcxM4O2UI="
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/1429997635/photo/registan-square-in-samarkand-historical-landmark-located-on-the-ancient-silk-road.jpg?s=1024x1024&w=is&k=20&c=PVOi8sDubQood7GIOkZrIaYHeO09rq57a0uNcuqJ5vc="
+                                        alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/180719286/photo/madrassa-ali-ben-youssef-marrakech-morocco.jpg?s=612x612&w=0&k=20&c=4fH1uXTgIdVnpAhNBxmY-Zb4uE6oBskNx6v1INcBIxY="
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/180719286/photo/madrassa-ali-ben-youssef-marrakech-morocco.jpg?s=612x612&w=0&k=20&c=4fH1uXTgIdVnpAhNBxmY-Zb4uE6oBskNx6v1INcBIxY="
+                                        alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/1429997635/photo/registan-square-in-samarkand-historical-landmark-located-on-the-ancient-silk-road.jpg?s=1024x1024&w=is&k=20&c=PVOi8sDubQood7GIOkZrIaYHeO09rq57a0uNcuqJ5vc="
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="gallary_item">
+                                    <div class="desc">
+                                        <h1 class="title-1">স্কুল জায়গা</h1>
+                                        <p class="pra">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                                            suscipit?</p>
+                                    </div>
+                                    <img src="https://media.istockphoto.com/id/1347476693/photo/registan-an-old-public-square-in-samarkand-uzbekistan.jpg?s=1024x1024&w=is&k=20&c=btYjmeAXSu3Q4niPdSBZB6g8BdIhJgpTCVEkl3BLA1I="
+                                        alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="contact">
+                        <div class="top_heading">
+                            <h2>গুগোল ম্যাপে আমাদের প্রতিষ্ঠান</h2>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3611.9535193978113!2d89.38413757388695!3d25.137262234128464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fce3419b83a749%3A0x23ff93c53a3f059e!2sChandpara%20Senior%20Madrasah!5e0!3m2!1sen!2sbd!4v1695317615929!5m2!1sen!2sbd"
+                                    width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+
+                        </div>
+                    </section>
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </main>
+    <footer class="pt-5">
+        <div class="container">
+            <div class="row pb-5 g-4 g-lg-5 g-md-4">
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="top_heading">
+                        <h2>চাদপাড়া সিনিয়র আলিম মাদরাসা</h2>
+                    </div>
+
+                    <div class="desc">
+                        <p class="pra text-white py-3">সমস্ত প্রশংসা সেই মহান আল্লাহ রাব্বুল আলামিনের যিনি আমাকে এক
+                            যুগের বেশি সময় ধরে সুনাম ও সুখ্যাতির সাথে বগুড়া জেলাধীন শাজাহানপুর উপজেলার অতি সুপ্রাচীন
+                            ঐতিহ্যবাহী সুনামধন্য জোড়া কামিল মাস্টার্স মাদ্রাসায় অধ্যক্ষ পদে অধিস্ট রেখেছেন।</p>
+                    </div>
+
+                    <div class="icon_footer">
+                        <span><i class="bi bi-facebook"></i></span>
+                        <span><i class="bi bi-twitter"></i></span>
+                        <span><i class="bi bi-instagram"></i></span>
+                        <span><i class="bi bi-youtube"></i></span>
+                        <span><i class="bi bi-google"></i></span>
+                        <span><i class="bi bi-linkedin"></i></span>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-title">
+                        <h2 class="title-1">আমাদের ঠিকানাঃ</h2>
+                    </div>
+                    <ul>
+                        <li> <span><i class="bi bi-geo-alt"></i></span>
+                            <p>চাদপাড়া সিনিয়র আলিম মাদরাসা , গোবিন্দগন্জ
+                                ,গাইবান্ধা</p>
+                        </li>
+
+                        <li> <span><i class="bi bi-telephone-plus-fill"></i></span>
+                            <p> +(880) 1645726503</p>
+                        </li>
+
+                        <li> <span><i class="bi bi-bag-plus"></i></span>
+                            <p>১১৯২৯৮</p>
+                        </li>
+
+                        <li> <span><i class="bi bi-envelope-arrow-down-fill"></i></span>
+                            <p>Mdabdussobur105@gmail.com </p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-title">
+                        <h2 class="title-1">অফিসিয়াল ফেসবুক পেজ</h2>
+                    </div>
+                    <div class="box_wrapper mt-4">
+
+                        <img src="https://images.unsplash.com/photo-1506536080447-49fd3988bab7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                            alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="row praivcy ">
+            <div class="col-12">
+                <div class=" text-center py-2">
+                    <p class="pra text-uppercase fw-bold text-white lh-0"> © 2016 - 2023 chandpara senior alim madrasha
+                        · DEVELOPED BY abdus sobur</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Add Bootstrap JavaScript and jQuery (Optional) -->
+
+    <script src="../js/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
